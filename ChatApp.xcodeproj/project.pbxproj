@@ -119,7 +119,7 @@
 				72A9400D27EE11F90041BB17 /* Core */,
 				72A9402C27EE32280041BB17 /* Models */,
 				72A9400C27EE11F40041BB17 /* Views */,
-				72A9402527EE2FB60041BB17 /* ViewModels */,
+				72A9403027EE41E20041BB17 /* ViewModels */,
 				72A5BAA827ED0AA00009FB71 /* Assets.xcassets */,
 				72A5BAAA27ED0AA00009FB71 /* Preview Content */,
 			);
@@ -187,20 +187,20 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		72A9402527EE2FB60041BB17 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				72A9402627EE2FC80041BB17 /* MessageViewModel.swift */,
-			);
-			name = ViewModels;
-			sourceTree = "<group>";
-		};
 		72A9402C27EE32280041BB17 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				72A9402D27EE32350041BB17 /* MessageModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		72A9403027EE41E20041BB17 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				72A9402627EE2FC80041BB17 /* MessageViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
